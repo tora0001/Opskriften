@@ -8,150 +8,83 @@ body {
   margin-top: 30px;
 }
 
+#main {
+  border: solid black;
+  background-color: lightgrey;
+  margin-right: auto;
+  margin-left: auto;
+  width: 25cm;
+  text-align: center;
+}
+
 h1 {
-  color: pink;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
-    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
-    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
-    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
-    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
-    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
-    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
-    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
-    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
-    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
-    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
-    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
-    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
-    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
   font-size: 4em;
   font-weight: 200;
   letter-spacing: 7px;
   text-align: center;
 }
 
-aside {
-  border: 3px solid black;
-  width: 720px;
-  height: 330px;
-  font-size: 1em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-align: center;
+img {
+  border: solid black;
+  font-size: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
 #beskrivelse {
-  color: pink;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
-    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
-    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
-    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
-    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
-    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
-    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
-    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
-    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
-    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
-    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
-    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
-    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
-    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-  margin-left: 500px;
-  margin-right: 500px;
   font-size: 1.2em;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 350;
+  letter-spacing: 0.5px;
   text-align: center;
+  line-height: 4px;
+  margin-bottom: 50px;
 }
 
 #ingredienser {
-  color: pink;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
-    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
-    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
-    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
-    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
-    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
-    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
-    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
-    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
-    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
-    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
-    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
-    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
-    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-  margin-left: 493px;
-  font-size: 1.5em;
-  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+  font-weight: 350;
   letter-spacing: 0.7px;
-  text-align: left;
+  text-align: center;
+  line-height: 15px;
 }
 
 #portioner {
-  color: pink;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
-    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
-    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
-    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
-    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
-    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
-    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
-    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
-    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
-    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
-    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
-    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
-    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
-    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-  margin-left: 493px;
+  margin-left: auto;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.7px;
+  text-align: center;
 }
 
 ul {
-  margin-left: 493px;
-  margin-right: 900px;
-  border: 3px solid black;
-  background-color: pink;
-  font-size: 0.9em;
-  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+  font-size: 1em;
+  font-weight: 400;
   letter-spacing: 0.7px;
   text-align: left;
+  line-height: 27px;
 }
 
 #fremgangsmåde {
-  color: pink;
-  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px,
-    rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px,
-    rgb(0, 0, 0) 0.705713px 2.91581px 0px,
-    rgb(0, 0, 0) -0.287171px 2.98622px 0px,
-    rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px,
-    rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px,
-    rgb(0, 0, 0) -2.94502px -0.571704px 0px,
-    rgb(0, 0, 0) -2.59586px -1.50383px 0px,
-    rgb(0, 0, 0) -1.96093px -2.27041px 0px,
-    rgb(0, 0, 0) -1.11013px -2.78704px 0px,
-    rgb(0, 0, 0) -0.137119px -2.99686px 0px,
-    rgb(0, 0, 0) 0.850987px -2.87677px 0px,
-    rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px,
-    rgb(0, 0, 0) 2.88051px -0.838247px 0px;
-  margin-top: -315px;
-  margin-left: 890px;
-  margin-bottom: 53px;
-  font-size: 1.5em;
-  font-weight: 500;
+  font-size: 2em;
+  font-weight: 350;
   letter-spacing: 0.7px;
-  text-align: left;
+  text-align: center;
 }
 
 ol {
-  border: 3px solid black;
-  background-color: pink;
-  max-width: 305px;
-  margin-left: 868px;
-  font-size: 0.9em;
-  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: 700px;
+  font-size: 1em;
+  font-weight: 400;
   letter-spacing: 0.7px;
   text-align: left;
+  line-height: 27px;
 }
