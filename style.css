@@ -34,10 +34,10 @@ aside {
   border: 3px solid black;
   width: 720px;
   height: 330px;
-  margin-left: 492px;
   font-size: 1em;
   font-weight: 500;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 #beskrivelse {
@@ -107,7 +107,6 @@ aside {
   font-size: 1em;
   font-weight: 500;
   letter-spacing: 0.7px;
-  text-align: left;
 }
 
 ul {
