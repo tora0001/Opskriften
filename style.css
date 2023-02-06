@@ -2,11 +2,14 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* BILLEDE AF CHOKOLADEBARER TIL BAGGRUND */
+
 body {
   background-image: url(https://media.istockphoto.com/id/1394551490/vector/dark-milk-and-white-chocolate-bar-in-an-open-package-seamless-pattern.jpg?s=612x612&w=0&k=20&c=jX4UZzcn30TZfBmL2DwihDiWSkO5zbZreSPLvbpxIjU=);
   margin-bottom: 200px;
   margin-top: 30px;
 }
+/* FIRKANT I BAGGRUNDEN */
 
 #main {
   border: solid black;
@@ -17,12 +20,16 @@ body {
   text-align: center;
 }
 
+/* OVERSKRIFT */
+
 h1 {
   font-size: 4em;
   font-weight: 200;
   letter-spacing: 7px;
   text-align: center;
 }
+
+/* BILLEDE AF BROWNIES */
 
 img {
   border: solid black;
@@ -32,6 +39,8 @@ img {
   width: fit-content;
 }
 
+/* BESKRIVELSE */
+
 #beskrivelse {
   font-size: 1.2em;
   font-weight: 350;
@@ -40,6 +49,8 @@ img {
   line-height: 4px;
   margin-bottom: 50px;
 }
+
+/* INGREDIENSER OVERSKRIFT */
 
 #ingredienser {
   margin-left: auto;
@@ -51,6 +62,8 @@ img {
   line-height: 15px;
 }
 
+/* PORTIONSSTØRRELSE */
+
 #portioner {
   margin-left: auto;
   font-size: 1em;
@@ -58,6 +71,8 @@ img {
   letter-spacing: 0.7px;
   text-align: center;
 }
+
+/* LISTE OVER INGREDIENSER */
 
 ul {
   margin-left: auto;
@@ -70,12 +85,16 @@ ul {
   line-height: 27px;
 }
 
+/* FREMGANGSMÅDE OVERSKRIFT */
+
 #fremgangsmåde {
   font-size: 2em;
   font-weight: 350;
   letter-spacing: 0.7px;
   text-align: center;
 }
+
+/* STEP BY STEP FREMGANGSMÅDE */
 
 ol {
   margin-left: auto;
