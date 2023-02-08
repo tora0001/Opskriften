@@ -48,7 +48,7 @@ h1 {
   letter-spacing: 0.5px;
   text-align: center;
   line-height: 4px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 /* INGREDIENSER OVERSKRIFT */
@@ -107,6 +107,12 @@ h1 {
   letter-spacing: 0.7px;
   text-align: left;
   line-height: 27px;
+}
+
+/* TIME IMAGE */
+
+#clock {
+  margin-bottom: -20px;
 }
 
 /* FOOTER */
