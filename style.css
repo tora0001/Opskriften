@@ -13,6 +13,7 @@ body {
 /* FIRKANT I BAGGRUNDEN */
 
 #main {
+  border-radius: 1cm;
   border: solid black;
   background-color: lightgrey;
   margin-right: auto;
@@ -33,6 +34,7 @@ h1 {
 /* BILLEDE AF BROWNIES */
 
 #billede {
+  border-radius: 1cm;
   border: solid black;
   font-size: 0em;
   margin-left: auto;
